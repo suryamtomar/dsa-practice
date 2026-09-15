@@ -1,7 +1,10 @@
 dsa-practice
 📘 Daily DSA grind in Java — arrays, trees, graphs, DP & more, solved and tracked topic-wise.
+
 About
+
 This repository documents my daily Data Structures & Algorithms practice as I prepare for software developer internships/roles. I'm following a structured, topic-wise problem-solving pattern — covering core concepts and progressively harder problems — solving consistently and pushing daily.
+
 Language: Java
 ---
 📂 Topics & Roadmap
