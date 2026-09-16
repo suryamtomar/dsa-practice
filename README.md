@@ -82,16 +82,17 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - House Robber
 
 ## 🗂 Repo Structure
-dsa-practice/
-├── arrays/
-├── strings/
-├── linked-list/
-├── trees-tries/
-├── stacks-queues/
-├── graphs/
-├── dp-recursion/
+
+- dsa-practice/
+  - arrays/
+  - strings/
+  - linked-list/
+  - trees-tries/
+  - stacks-queues/
+  - graphs/
+  - dp-recursion/
+  - README.md
 
 ## 🔗 Connect
 
 **Portfolio:** [suryamtomar.in](https://suryamtomar.in)
-└── README.md
