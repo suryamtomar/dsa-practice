@@ -67,7 +67,7 @@ public class patternPrintingPart1 {
                  for (int col = 1; col <=2*n-2*row+1; col++) {
                      System.out.print("* ");
                  }
-                 System.out.println("");
+                 System.out.println();
                  }
 
 
