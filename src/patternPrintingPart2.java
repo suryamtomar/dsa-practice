@@ -38,26 +38,74 @@ public class patternPrintingPart2 {
 //            }
 //        }
         //Pattern-2:Another Approach To Solve Staircase Shape Pattern:-
-        int n = 10;
-        for (int row = 1; row <= n; row++) {
-            if(row==1||row==2||row==n){
-                for(int col = 1; col <= row; col++){
-                    System.out.print("* ");
-                }
-            }else{
-//                first star
-                System.out.print("* ");
-//                middle star
-            for(int col = 1; col <= row-2; col++){
-                System.out.print("  ");
-            }
-            //            last star
-            System.out.print("* ");
-            }
-//           Move to next row
-            System.out.println();
+//        int n = 10;
+//        for (int row = 1; row <= n; row++) {
+//            if(row==1||row==2||row==n){
+//                for(int col = 1; col <= row; col++){
+//                    System.out.print("* ");
+//                }
+//            }else{
+////                first star
+//                System.out.print("* ");
+////                middle star
+//            for(int col = 1; col <= row-2; col++){
+//                System.out.print("  ");
+//            }
+//            //            last star
+//            System.out.print("* ");
+//            }
+////           Move to next row
+//            System.out.println();
+//
+//        }
+        //Pattern-3:Butterfly-Style Star Shape Pattern:-
+             int n =5;
+           for(int row=1;row<=n;row++) {
+               //part 1:
+               for (int col = 1; col <= row; col++) {
+                   System.out.print("* ");
+               }
+               //part 2:
+               for (int col = 1; col <= 2 * (n - row); col++) {
+                   System.out.print("  ");
+               }
+               //part 3:
+               for (int col = 1; col <= row; col++) {
+                   System.out.print("* ");
 
-        }
+               }
+               System.out.println();
+           }
+        for(int row=1;row<=n;row++){
+               //part 4:
+               for(int col=1;col<=n-row+1;col++){
+                   System.out.print("* ");
+               }
+               //part 5:
+               for (int col = 1; col <=2*(row-1); col++) {
+                   System.out.print("  ");
+               }
+               //part 6:
+            for (int col = 1; col <= n-row+1; col++) {
+                System.out.print("* ");
+            }
+               System.out.println();
+           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       }
     }
 
