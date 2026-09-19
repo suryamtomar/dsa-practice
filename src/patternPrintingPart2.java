@@ -92,13 +92,23 @@ public class patternPrintingPart2 {
 //               System.out.println();
 //           }
         //Pattern-4: Solid Right-Angle Triangle Pattern But With Numbers:-
-               int n =5;
-               for(int row=1;row<=n;row++){
-                   for(int col=1;col<=row;col++){
-                       System.out.print(col);
-                   }
-                   System.out.println();
-               }
+//               int n =5;
+//               for(int row=1;row<=n;row++){
+//                   for(int col=1;col<=row;col++){
+//                       System.out.print(col);
+//                   }
+//                   System.out.println();
+//               }
+        //Pattern-5: Solid Right-Angle Triangle Pattern But With counting up to 10 :-
+                int n=5;
+                int count=1;
+                for(int row=1;row<=n;row++){
+                for(int col=1;col<=row;col++){
+                    System.out.print(count +" ");
+                    count++;
+                }
+                System.out.println();
+                }
 
 
 
