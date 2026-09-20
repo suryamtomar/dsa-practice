@@ -16,7 +16,7 @@ public class array {
 //     using for-each loop
 //
 //        #Taking input in Array:-
-        int arr[]=new int[5];
+        int[]arr=new int[5];
         Scanner sc=new Scanner(System.in);
         int n=arr.length;
         for(int i=0;i<n;i++)
