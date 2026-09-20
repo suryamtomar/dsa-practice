@@ -51,7 +51,7 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - Lowest Common Ancestor of a BST
 - Diameter of Binary Tree
 - Implement Trie
-- Word Search II
+- Word Search 
 
 ### 5. Stacks and Queues
 **Subtopics:** Stack operations · Queue operations · Monotonic stack · Parentheses matching · Expression evaluation · BFS queues · Min/max tracking
