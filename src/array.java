@@ -7,9 +7,13 @@ public class array {
 //        initialization
         int brr[]={100,209,390,567,678};
         int n=brr.length;
-        for(int i=0;i<=n-1;i++){
-            System.out.println(brr[i]);
-        }
+//     using for loop
+        //        for(int i=0;i<=n-1;i++){
+//            System.out.println(brr[i]);
+//        }
+//     using for-each loop
+        for(int val:brr)
+        System.out.println(val);
 
     }
 }
