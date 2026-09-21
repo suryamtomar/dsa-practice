@@ -58,19 +58,26 @@ public class array {
 //        System.out.println(mul);
 
         //#practice Problem 3:Find max value in array:-
-         int [] arr={1,2,3,4,5,6,6,7,8,9,11};
-         int n=arr.length;
-         int maxValue=arr[0];
-//         compare max value ko arr k hr 1 element k sath :-
-         for(int i=0;i<n;i++){
-           if ( arr[i]>maxValue){
-               maxValue=arr[i];
-           }
-
-         }
-        System.out.println(maxValue);
-
-
+//         int [] arr={1,2,3,4,5,6,6,7,8,9,11};
+//         int n=arr.length;
+//         int maxValue=arr[0];
+////         compare max value ko arr k hr 1 element k sath :-
+//         for(int i=0;i<n;i++){
+//           if ( arr[i]>maxValue){
+//               maxValue=arr[i];
+//           }
+//
+//         }
+//        System.out.println(maxValue);
+        //#practice Problem 4:Find min value in array:-
+        int arr[]={30,40,50,60,68,38,3345,23,-34};
+        int minValue=arr[0];
+        for(int value:arr){
+            if(value<minValue){
+                minValue=value;
+            }
+        }
+        System.out.println(minValue);
 
     }
 }
