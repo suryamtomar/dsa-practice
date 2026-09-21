@@ -16,19 +16,29 @@ public class array {
 //     using for-each loop
 //
 //        #Taking input in Array:-
-        int[]arr=new int[5];
-        Scanner sc=new Scanner(System.in);
-        int n=arr.length;
-        for(int i=0;i<n;i++)
-        {
-            System.out.println("enter the element no."+i);
-            arr[i]=sc.nextInt();
-        }
-        System.out.println("your array contains:");
+//        int[]arr=new int[5];
+//        Scanner sc=new Scanner(System.in);
+//        int n=arr.length;
+//        for(int i=0;i<n;i++)
+//        {
+//            System.out.println("enter the element no."+i);
+//            arr[i]=sc.nextInt();
+//        }
+//        System.out.println("your array contains:");
+//        for(int val:arr){
+//            System.out.println(val);
+//        }
+//
+//             #practice:-
+//
+        int[]arr={10,34,54,3223,243};
+//        int n=arr.length;
+//        for(int i=0;i<=n-1;i++){
+//            System.out.println(arr[i]);
+//        }
         for(int val:arr){
-            System.out.println(val);
+            System.out.println(val+" ");
         }
-
 
 
 
