@@ -49,13 +49,26 @@ public class array {
 
         //#practice Problem 2:-
 
-        int[]arr={1,2,3,4,5,6,7,8,9,10};
+//        int[]arr={1,2,3,4,5,6,7,8,9,10};
+//
+//        int mul=1;
+//        for (int value : arr) {
+//            mul = mul * value;
+//        }
+//        System.out.println(mul);
 
-        int mul=1;
-        for (int value : arr) {
-            mul = mul * value;
-        }
-        System.out.println(mul);
+        //#practice Problem 3:Find max value in array:-
+         int [] arr={1,2,3,4,5,6,6,7,8,9,11};
+         int n=arr.length;
+         int maxValue=arr[0];
+//         compare max value ko arr k hr 1 element k sath :-
+         for(int i=0;i<n;i++){
+           if ( arr[i]>maxValue){
+               maxValue=arr[i];
+           }
+
+         }
+        System.out.println(maxValue);
 
 
 
