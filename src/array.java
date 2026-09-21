@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class array {
     public static void main(String[] args) {
-//       declaration;
+//   declaration;
 //        int  arr [];
 //        allocation
 //        arr = new int [10];
@@ -29,16 +29,26 @@ public class array {
 //            System.out.println(val);
 //        }
 //
-//             #practice:-
+               //#practice:-
 //
-        int[]arr={10,34,54,3223,243};
+//        int[]arr={10,34,54,3223,243};
 //        int n=arr.length;
 //        for(int i=0;i<=n-1;i++){
 //            System.out.println(arr[i]);
 //        }
-        for(int val:arr){
-            System.out.println(val+" ");
-        }
+//        for(int val:arr){
+//            System.out.println(val+" ");
+//        }
+        //#practice Problem 1:-
+
+            int[]arr={10,20,30,40,50,60,70,80,90,100};
+            int n=arr.length;
+            int sum=0;
+            for(int i=0;i<n;i++){
+               int value=arr[i];
+               sum = sum+value;
+            }
+            System.out.println(sum);
 
 
 
