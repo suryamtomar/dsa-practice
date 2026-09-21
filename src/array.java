@@ -39,14 +39,23 @@ public class array {
 //        }
         //#practice Problem 1:-
 
-            int[]arr={10,20,30,40,50,60,70,80,90,100};
+//            int[]arr={10,20,30,40,50,60,70,80,90,100};
+//
+//            int sum=0;
+//        for (int value : arr) {
+//            sum = sum + value;
+//        }
+//            System.out.println(sum);
 
-            int sum=0;
+        //#practice Problem 2:-
+
+        int[]arr={1,2,3,4,5,6,7,8,9,10};
+
+        int mul=1;
         for (int value : arr) {
-            sum = sum + value;
+            mul = mul * value;
         }
-            System.out.println(sum);
-
+        System.out.println(mul);
 
 
 
