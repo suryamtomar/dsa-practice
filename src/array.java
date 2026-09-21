@@ -70,7 +70,7 @@ public class array {
 //         }
 //        System.out.println(maxValue);
         //#practice Problem 4:Find min value in array:-
-        int arr[]={30,40,50,60,68,38,3345,23,-34};
+        int[] arr={30,40,50,60,68,38,3345,23,-34};
         int minValue=arr[0];
         for(int value:arr){
             if(value<minValue){
