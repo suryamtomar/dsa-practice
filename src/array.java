@@ -69,15 +69,22 @@ public class array {
 //
 //         }
 //        System.out.println(maxValue);
-        //#practice Problem 4:Find min value in array:-
+//
+        //#practice Problem 5:Find min and max value in array:-
         int[] arr={30,40,50,60,68,38,3345,23,-34};
         int minValue=arr[0];
+        int maxValue=arr[0];
         for(int value:arr){
             if(value<minValue){
                 minValue=value;
+            }else{
+                if(value>maxValue){
+                    maxValue=value;
+                }
             }
         }
         System.out.println(minValue);
+        System.out.println(maxValue);
 
     }
 }
