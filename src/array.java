@@ -98,7 +98,7 @@ public class array {
                              {1,2,3},
                              {1,2}
                           };
-             int rowLength=arr.length;
+//            int rowLength=arr.length;
 
 
              for(int rowIndex=0;rowIndex<arr.length;rowIndex++){
