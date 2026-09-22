@@ -89,29 +89,48 @@ public class array {
                  //2D ARRAY :-
 
 //          #Example 1-
-             int [][] arr={
-                             {1,2},
-                             {1,2,3},
-                             {1,2,3,4},
-                             {1,2,3,4,5},
-                             {1,2,3,4},
-                             {1,2,3},
-                             {1,2}
-                          };
-//            int rowLength=arr.length;
 
 
-             for(int rowIndex=0;rowIndex<arr.length;rowIndex++){
-//                 jese he main koi new row main aaya
-//                 same point pr mene us row ka collLength find out kr lia
-//                 current row -> arr[rowIndex]
-//                 jisme kitne columns ->arr[rowIndex].length
-                 int colLength=arr[rowIndex].length;
-                 for(int columnIndex=0;columnIndex<=colLength-1;columnIndex++){
-                     System.out.print(arr[rowIndex][columnIndex]+" ");
-                 }
-               System.out.println();
-             }
+//           int [][] arr={
+//                             {1,2},
+//                             {1,2,3},
+//                             {1,2,3,4},
+//                             {1,2,3,4,5},
+//                             {1,2,3,4},
+//                             {1,2,3},
+//                             {1,2}
+//                         };
+////            int rowLength=arr.length;
+//
+//
+//             for(int rowIndex=0;rowIndex<arr.length;rowIndex++){
+////                 jese he main koi new row main aaya
+////                 same point pr mene us row ka collLength find out kr lia
+////                 current row -> arr[rowIndex]
+////                 jisme kitne columns ->arr[rowIndex].length
+//                 int colLength=arr[rowIndex].length;
+//                 for(int columnIndex=0;columnIndex<=colLength-1;columnIndex++){
+//                     System.out.print(arr[rowIndex][columnIndex]+" ");
+//                 }
+//               System.out.println();
+//             }
+//          #Example 2-
+        int[][] arr={
+                     {1,2},
+                     {3,4},
+                     {5,6},
+                     {7,8}
+                     };
+        int rowLength=arr.length;
+        int  colLength=arr[0].length;
+        for(int rowIndex=0;rowIndex<=rowLength-1;rowIndex++){
+            for(int colIndex=0;colIndex<=colLength-1;colIndex++){
+                System.out.print(arr[rowIndex][colIndex]+" ");
+            }
+            System.out.println();
+        }
+
+
 
 
 
