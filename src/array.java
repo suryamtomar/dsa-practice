@@ -155,17 +155,26 @@ public class array {
 //            System.out.println();
 //        }
 
-        //#practice Problem in 2D Array:-
+//       #practice Problem 1 in 2D Array:-
+//        int[][] arr={{1,2,3},{4,5,6}};
+//        int sum=0;
+//        for(int i=0;i<arr.length;i++){
+//            for(int j=0;j<arr[i].length;j++){
+//                sum+=arr[i][j];
+//            }
+//
+//        }
+//        System.out.println(sum);
+//        #practice Problem 2 in 2D Array:-
         int[][] arr={{1,2,3},{4,5,6}};
-        int sum=0;
+        int mul=1;
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
-                sum+=arr[i][j];
+                mul*=arr[i][j];
             }
 
         }
-        System.out.println(sum);
-
+        System.out.println(mul);
 
 
 
