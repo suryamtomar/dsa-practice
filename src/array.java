@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class array {
     public static void main(String[] args) {
 //   declaration;
@@ -115,12 +117,12 @@ public class array {
 //               System.out.println();
 //             }
 //          #Example 2-
-        int[][] arr={
-                     {1,2},
-                     {3,4},
-                     {5,6},
-                     {7,8}
-                     };
+//        int[][] arr={
+//                     {1,2},
+//                     {3,4},
+//                     {5,6},
+//                     {7,8}
+//                     };
 //        int rowLength=arr.length;
 //        int  colLength=arr[0].length;
 //        for(int rowIndex=0;rowIndex<=rowLength-1;rowIndex++){
@@ -130,12 +132,29 @@ public class array {
 //            System.out.println();
 //        }
              //Or
+//        for(int rowIndex=0;rowIndex<=arr.length-1;rowIndex++){
+//            for(int colIndex=0;colIndex<=arr[rowIndex].length-1;colIndex++){
+//                System.out.print(arr[rowIndex][colIndex]+" ");
+//            }
+//            System.out.println();
+//        }
+
+//        Example 3:Taking input in 2D Array:-
+        int arr[][]=new int[3][4];
+        Scanner sc=new Scanner(System.in);
+        for(int i=0;i<=arr.length-1;i++){
+            for(int j=0;j<=arr[i].length-1;j++){
+                System.out.println("Value provided for row= "+i+" and column= "+j);
+                arr[i][j]=sc.nextInt();
+            }
+        }
         for(int rowIndex=0;rowIndex<=arr.length-1;rowIndex++){
             for(int colIndex=0;colIndex<=arr[rowIndex].length-1;colIndex++){
                 System.out.print(arr[rowIndex][colIndex]+" ");
             }
             System.out.println();
         }
+
 
 
 
