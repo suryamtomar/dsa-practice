@@ -71,20 +71,50 @@ public class array {
 //        System.out.println(maxValue);
 //
         //#practice Problem 5:Find min and max value in array:-
-        int[] arr={30,40,50,60,68,38,3345,23,-34};
-        int minValue=arr[0];
-        int maxValue=arr[0];
-        for(int value:arr){
-            if(value<minValue){
-                minValue=value;
-            }else{
-                if(value>maxValue){
-                    maxValue=value;
-                }
-            }
-        }
-        System.out.println(minValue);
-        System.out.println(maxValue);
+//        int[] arr={30,40,50,60,68,38,3345,23,-34};
+//        int minValue=arr[0];
+//        int maxValue=arr[0];
+//        for(int value:arr){
+//            if(value<minValue){
+//                minValue=value;
+//            }else{
+//                if(value>maxValue){
+//                    maxValue=value;
+//                }
+//            }
+//        }
+//        System.out.println(minValue);
+//        System.out.println(maxValue);
+
+                 //2D ARRAY :-
+
+//          #Example 1-
+             int [][] arr={
+                             {1,2},
+                             {1,2,3},
+                             {1,2,3,4},
+                             {1,2,3,4,5},
+                             {1,2,3,4},
+                             {1,2,3},
+                             {1,2}
+                          };
+             int rowLength=arr.length;
+
+
+             for(int rowIndex=0;rowIndex<arr.length;rowIndex++){
+//                 jese he main koi new row main aaya
+//                 same point pr mene us row ka collLength find out kr lia
+//                 current row -> arr[rowIndex]
+//                 jisme kitne columns ->arr[rowIndex].length
+                 int colLength=arr[rowIndex].length;
+                 for(int columnIndex=0;columnIndex<=colLength-1;columnIndex++){
+                     System.out.print(arr[rowIndex][columnIndex]+" ");
+                 }
+               System.out.println();
+             }
+
+
+
 
     }
 }
