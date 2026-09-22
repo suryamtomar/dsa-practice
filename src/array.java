@@ -169,8 +169,8 @@ public class array {
         int[][] arr={{1,2,3},{4,5,6}};
         int mul=1;
         for (int[] ints : arr) {
-            for (int j = 0; j < ints.length; j++) {
-                mul *= ints[j];
+            for (int anInt : ints) {
+                mul *= anInt;
             }
 
         }
