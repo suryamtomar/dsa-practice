@@ -121,15 +121,21 @@ public class array {
                      {5,6},
                      {7,8}
                      };
-        int rowLength=arr.length;
-        int  colLength=arr[0].length;
-        for(int rowIndex=0;rowIndex<=rowLength-1;rowIndex++){
-            for(int colIndex=0;colIndex<=colLength-1;colIndex++){
+//        int rowLength=arr.length;
+//        int  colLength=arr[0].length;
+//        for(int rowIndex=0;rowIndex<=rowLength-1;rowIndex++){
+//            for(int colIndex=0;colIndex<=colLength-1;colIndex++){
+//                System.out.print(arr[rowIndex][colIndex]+" ");
+//            }
+//            System.out.println();
+//        }
+             //Or
+        for(int rowIndex=0;rowIndex<=arr.length-1;rowIndex++){
+            for(int colIndex=0;colIndex<=arr[rowIndex].length-1;colIndex++){
                 System.out.print(arr[rowIndex][colIndex]+" ");
             }
             System.out.println();
         }
-
 
 
 
