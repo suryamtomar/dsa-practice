@@ -166,15 +166,28 @@ public class array {
 //        }
 //        System.out.println(sum);
 //        #practice Problem 2 in 2D Array:-
-        int[][] arr={{1,2,3},{4,5,6}};
-        int mul=1;
+//        int[][] arr={{1,2,3},{4,5,6}};
+//        int mul=1;
+//        for (int[] ints : arr) {
+//            for (int anInt : ints) {
+//                mul *= anInt;
+//            }
+//
+//        }
+//        System.out.println(mul);
+
+
+//        #practice Problem 3 in 2D Array:-
+        int [][] arr={{1,2,3},{31,42,33}};
+        int maxValue=arr[0][0];
         for (int[] ints : arr) {
             for (int anInt : ints) {
-                mul *= anInt;
+                if (anInt > maxValue) {
+                    maxValue = anInt;
+                }
             }
-
         }
-        System.out.println(mul);
+        System.out.println(maxValue);
 
 
 
