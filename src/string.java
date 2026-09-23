@@ -20,10 +20,17 @@ public class string {
 //        System.out.println("value: "+str);
 
 //        Converting the String in character array:-
-        String name="SURYAM";
-        char[] charArray = name.toCharArray();
-        for (char ch : charArray) {
-            System.out.println("Name to character: " + ch);
+//        String name="SURYAM";
+//        char[] charArray = name.toCharArray();
+//        for (char ch : charArray) {
+//            System.out.println("Name to character: " + ch);
+//        }
+
+//        Using split method to split the string:-
+        String name ="My,Name,Is,Suryam,Tomar";
+        String[] word=name.split(",");
+        for (String word1 : word) {
+            System.out.println(word1);
         }
 
 
