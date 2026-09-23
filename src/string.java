@@ -27,11 +27,16 @@ public class string {
 //        }
 
 //        Using split method to split the string:-
-        String name ="My,Name,Is,Suryam,Tomar";
-        String[] word=name.split(",");
-        for (String word1 : word) {
-            System.out.println(word1);
-        }
+//        String name ="My,Name,Is,Suryam,Tomar";
+//        String[] word=name.split(",");
+//        for (String word1 : word) {
+//            System.out.println(word1);
+//        }
+
+//        Replacing the old character into new character:-
+        String name="Sulyam";
+        name =name.replace("l","r");
+        System.out.println(name);
 
 
     }
