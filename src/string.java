@@ -14,11 +14,17 @@ public class string {
 //        System.out.println(firstName.charAt(2));
 
 //        Taking input in string:-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String str = sc.nextLine();
-        System.out.println("value: "+str);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a string: ");
+//        String str = sc.nextLine();
+//        System.out.println("value: "+str);
 
+//        Converting the String in character array:-
+        String name="SURYAM";
+        char[] charArray = name.toCharArray();
+        for (char ch : charArray) {
+            System.out.println("Name to character: " + ch);
+        }
 
 
     }
