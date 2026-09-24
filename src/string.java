@@ -34,7 +34,7 @@ public class string {
 //        }
 
 //        Replacing the old character into new character:-
-        String name="Sulyam";
+        String name="Suiyam";
         name =name.replace("l","r");
         System.out.println(name);
 
