@@ -20,18 +20,18 @@ public class string {
 //        System.out.println("value: "+str);
 
 //        Converting the String in character array:-
-//        String name="SURYAM";
-//        char[] charArray = name.toCharArray();
-//        for (char ch : charArray) {
-//            System.out.println("Name to character: " + ch);
-//        }
+        String name="LOVETHEWAYYOULIE";
+        char[] charArray = name.toCharArray();
+        for (char ch : charArray) {
+            System.out.println("Name to character: " + ch);
+        }
 
 //        Using split method to split the string:-
-        String name ="I,Am,Suryam,Tomar";
-        String[] word=name.split(",");
-        for (String word1 : word) {
-            System.out.println(word1);
-        }
+//        String name ="I,Am,Suryam,Tomar";
+//        String[] word=name.split(",");
+//        for (String word1 : word) {
+//            System.out.println(word1);
+//        }
 
 //        Replacing the old character into new character:-
 //        String name="Suiyam";
