@@ -76,7 +76,7 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - Word Ladder
 
 ### 7. Dynamic Programming and Recursion
-**Subtopics:** Base cases · Recursive calls · Backtracking · Subsets · Permutations · Combinations · Memoization · Tabulation · 1D DP · 2D DP · Knapsack · Subsequences · State transitions
+**Subtopics:** Base cases · Recursive calls · Backtracking · Subsets · Permutations · Combinations · Memoization · Tabulation · 1D DP · 2D DP · Knapsack · Subsequences
 
 - Climbing Stairs
 - House Robber
