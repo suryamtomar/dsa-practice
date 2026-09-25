@@ -42,7 +42,7 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - Reorder List
 
 ### 4. Trees and Tries
-**Subtopics:** DFS · BFS / level-order traversal · Preorder traversal · Inorder traversal · Postorder traversal · Binary Search Trees · Tree height and depth · Lowest Common Ancestor · Tree construction · Trie insertion · Prefix search 
+**Subtopics:** DFS · BFS / level-order traversal · Preorder traversal · Inorder traversal · Postorder traversal · Binary Search Trees · Tree height and depth · Lowest Common Ancestor · Tree construction · Trie insertion
 
 - Maximum Depth of Binary Tree
 - Invert Binary Tree
