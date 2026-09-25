@@ -17,7 +17,6 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - Best Time to Buy and Sell Stock
 - Product of Array Except Self
 - Maximum Subarray
-- 3Sum
 - Container With Most Water
 - Subarray Sum Equals K
 
