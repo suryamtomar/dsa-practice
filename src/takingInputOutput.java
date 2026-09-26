@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class takingInputOutput {
    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter the first number:");
+        System.out.println("Please enter the first num:");
         int firstNumber = sc.nextInt();
         System.out.println("Please enter the second number:");
         int secondNumber = sc.nextInt();
