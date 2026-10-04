@@ -10,12 +10,22 @@ public class practice {
 //    boolean	     Returns true or false	    boolean isPrime(int n)
 
 // Example 1 — void
-    public static void printDigit(int num) {
-        System.out.println(num);
-    }
+//    public static void printDigit(int num) {
+//        System.out.println(num);
+//    }
+//
+//    public static void main(String[] args) {
+//        printDigit(10);
+//    }
 
+
+// Example 2 — int
+public static int add(int a,int b) {
+    return a + b ;
+}
     public static void main(String[] args) {
-        printDigit(10);
+     int result = add(10,1);
+        System.out.println(result);
     }
 
 }
