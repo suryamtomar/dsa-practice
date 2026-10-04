@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class practice {
 //    we are practicing or learning return types in java :-
 // Common return types
@@ -29,12 +31,22 @@ public class practice {
 //    }
 
 // Example 3 — boolean
-public static boolean isEven(int n) {
-    return (n % 2 == 0);
-}
+//public static boolean isEven(int n) {
+//    return (n % 2 == 0);
+//}
+//    public static void main(String[] args) {
+//        System.out.println(isEven(70));
+//    }
 
+
+// Example 4 — String
+public static String greet(String name) {
+    return "Hello, " + name + "!";
+}
     public static void main(String[] args) {
-        System.out.println(isEven(70));
+    String message =greet("Suryam");
+     System.out.println(message);
     }
+
 
 }
