@@ -20,11 +20,11 @@ public class string {
 //        System.out.println("value: "+str);
 
 //        Converting the String in character array:-
-        String name="LOVETHEWAYYOULIE";
-        char[] charArray = name.toCharArray();
-        for (char ch : charArray) {
-            System.out.println("Name to character: " + ch);
-        }
+//        String name="LOVETHEWAYYOULIE";
+//        char[] charArray = name.toCharArray();
+//        for (char ch : charArray) {
+//            System.out.println("Name to character: " + ch);
+//        }
 
 //        Using split method to split the string:-
 //        String name ="I,Am,Suryam,Tomar";
@@ -37,6 +37,12 @@ public class string {
 //        String name="Suiyam";
 //        name =name.replace("l","r");
 //        System.out.println(name);
+
+
+// Practice question's:-
+//        #1 Print each character of the string....
+        String name ="suryam";
+
 
 
     }
