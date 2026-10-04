@@ -9,4 +9,13 @@ public class practice {
 //    char	         Returns one character	    char getGrade()
 //    boolean	     Returns true or false	    boolean isPrime(int n)
 
+// Example 1 — void
+    public static void printDigit(int num) {
+        System.out.println(num);
+    }
+
+    public static void main(String[] args) {
+        printDigit(10);
+    }
+
 }
