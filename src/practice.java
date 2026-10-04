@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class practice {
 //    we are practicing or learning return types in java :-
