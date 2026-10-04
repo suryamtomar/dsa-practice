@@ -20,12 +20,21 @@ public class practice {
 
 
 // Example 2 — int
-public static int add(int a,int b) {
-    return a + b ;
+//public static int add(int a,int b) {
+//    return a + b ;
+//}
+//    public static void main(String[] args) {
+//     int result = add(10,1);
+//        System.out.println(result);
+//    }
+
+// Example 3 — boolean
+public static boolean isEven(int n) {
+    return (n % 2 == 0);
 }
+
     public static void main(String[] args) {
-     int result = add(10,1);
-        System.out.println(result);
+        System.out.println(isEven(70));
     }
 
 }
