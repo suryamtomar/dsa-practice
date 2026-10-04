@@ -41,7 +41,7 @@ public class string {
 
 // Practice question's:-
 //        #1 Print each character of the string....
-        String name ="suryam";
+//        String name ="suryam";
 
 
 
