@@ -21,7 +21,7 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 - Subarray Sum Equals K
 
 ### 2. Strings
-**Subtopics:** Character frequency counting · Two pointers · Sliding window · String parsing · Palindromes · Anagrams · Substrings
+**Subtopics:** Character frequency counting · Two pointers · Sliding window · String parsing · Palindromes · Anagrams 
 
 - Valid Anagram
 - Valid Palindrome
