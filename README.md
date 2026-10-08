@@ -11,7 +11,7 @@ This repository documents my daily Data Structures & Algorithms practice as I pr
 ## Topics & Roadmap
 
 ### 1. Arrays
-**Subtopics:** Array traversal · Two pointers · Sliding window · Prefix sums · Kadane's Algorithm · In-place modification · Matrix traversal · Intervals
+**Subtopics:** Array traversal · Two pointers · Sliding window · Prefix sums · Kadane's Algorithm · In-place modification · Matrix traversal 
 
 - Two Sum
 - Best Time to Buy and Sell Stock
