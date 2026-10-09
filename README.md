@@ -1,6 +1,6 @@
 # DSA Practice
 
-📘 Daily DSA grind in Java — arrays, trees, graphs, DP & more, solved and tracked topic-wise.
+📘 Daily DSA grind in Java — arrays, trees, graphs, DP & more, solved and tracked topic
 
 ## About
 
