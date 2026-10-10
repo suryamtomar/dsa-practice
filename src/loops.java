@@ -12,10 +12,16 @@ public class loops {
 //        for (int i=1;i<=5;i++){
 //            System.out.println("print value : "+i);
 //        }
-//        Example 2:
+//        Example 2:to print odd value till 10:-
 //        for (int i=1;i<=10;i+=2){
 //            System.out.println(i);
 //        }
+//        Example 3:to print even value till 10:-
+        for (int i=2;i<=10;i+=2){
+            System.out.println(i);
+
+        }
+
 //
 //
 //       2.Nested loops
@@ -70,10 +76,10 @@ public class loops {
 //            i++;
 //        }
 //        3.Do While loop:
-        int i=1;
-        do{
-            System.out.println(i);
-            i++;
-        }while(i<=10);
+//        int i=1;
+//        do{
+//            System.out.println(i);
+//            i++;
+//        }while(i<=10);
     }
 }
