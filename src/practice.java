@@ -44,7 +44,7 @@ public static String greet(String name) {
     return "Hello, " + name + "!";
 }
     public static void main(String[] args) {
-    String message =greet("Suryam");
+    String message =greet("Suryam tomar");
      System.out.println(message);
     }
 
