@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class loops {
     public static void main(String[] args) {
 
@@ -17,10 +18,10 @@ public class loops {
 //            System.out.println(i);
 //        }
 //        Example 3:to print even value till 10:-
-        for (int i=2;i<=10;i+=2){
-            System.out.println(i);
-
-        }
+//        for (int i=2;i<=10;i+=2){
+//            System.out.println(i);
+//
+//        }
 
 //
 //
@@ -81,5 +82,21 @@ public class loops {
 //            System.out.println(i);
 //            i++;
 //        }while(i<=10);
+
+
+
+//        example for while loop by taking input :-
+                Scanner input = new Scanner(System.in);
+                int secret = 7;
+                int guess = 0;
+
+                while (guess != secret) {
+                    System.out.print("Guess the number: ");
+                    guess = input.nextInt();
+                }
+
+                System.out.println("Correct!");
+
+
     }
 }
