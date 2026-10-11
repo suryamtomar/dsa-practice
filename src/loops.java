@@ -53,6 +53,13 @@ public class loops {
 //            }
 //            System.out.println(i);
 //        }
+//        Example 5:using continue with another example:-
+        for (int i = 1; i <= 10; i++) {
+            if(i==1||i==2||i==3||i==4){
+                continue;
+            }
+            System.out.println(i);
+        }
 //        2.While loops
 //        Use the while loop when you want to repeat code as long as a condition is true,
 //         but you do not know the exact number of repetitions beforehand
@@ -86,16 +93,16 @@ public class loops {
 
 
 //        example for while loop by taking input :-
-                Scanner input = new Scanner(System.in);
-                int secret = 7;
-                int guess = 0;
-
-                while (guess != secret) {
-                    System.out.print("Guess the number: ");
-                    guess = input.nextInt();
-                }
-
-                System.out.println("Correct!");
+//                Scanner input = new Scanner(System.in);
+//                int secret = 7;
+//                int guess = 0;
+//
+//                while (guess != secret) {
+//                    System.out.print("Guess the number: ");
+//                    guess = input.nextInt();
+//                }
+//
+//                System.out.println("Correct!");
 
 
     }
