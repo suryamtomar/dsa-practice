@@ -31,22 +31,22 @@ public class practice {
 //    }
 
 // Example 3 — boolean
-public static boolean isEven(int n) {
-    return (n % 2 == 0);
-}
-    public static void main(String[] args) {
-        System.out.println(isEven(71));
-    }
+//public static boolean isEven(int n) {
+//    return (n % 2 == 0);
+//}
+//    public static void main(String[] args) {
+//        System.out.println(isEven(71));
+//    }
 
 
 // Example 4 — String
-//public static String greet(String name) {
-//    return "Hello, " + name + "!";
-//}
-//    public static void main(String[] args) {
-//    String message =greet("Suryam tomar");
-//     System.out.println(message);
-//    }
+public static String greet(String name) {
+    return "Hello, " + name + "!";
+}
+    public static void main(String[] args) {
+    String message =greet("Suryam");
+     System.out.println(message);
+    }
 
 
 }
