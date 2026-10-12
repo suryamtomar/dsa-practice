@@ -1,13 +1,13 @@
 public class patternPrintingPart1 {
     public static void main(String[] args) {
         //PATTERN 1.Solid Square Pattern
-//        int n=4;
-//        for (int row=1;row<=n;row++){
-//            for (int coloumn=1;coloumn<=n;coloumn++){
-//                System.out.print("* ");
-//            }
-//            System.out.println();
-//        }
+        int n=4;
+        for (int row=1;row<=n;row++){
+            for (int coloumn=1;coloumn<=n;coloumn++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         //PATTERN 2.Solid Rectangular Pattern
 //        int n=3;
 //        for (int row=1;row<=n;row++) {
@@ -17,13 +17,13 @@ public class patternPrintingPart1 {
 //            System.out.println();
 //        }
         //PATTERN 3.Solid Right-Angle Triangle Pattern
-        int n=5;
-        for(int row=1;row<=n;row++){
-            for(int col=1;col<=row;col++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        int n=5;
+//        for(int row=1;row<=n;row++){
+//            for(int col=1;col<=row;col++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
         //PATTERN 4.Solid Rhombus Pattern
 //        int n = 5;
 //        for (int row = 1; row <= n; row++) {
@@ -69,13 +69,5 @@ public class patternPrintingPart1 {
 //                 }
 //                 System.out.println();
 //                 }
-
-
-
-
-
-
-
-
-        }
+       }
     }

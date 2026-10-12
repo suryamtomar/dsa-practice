@@ -54,12 +54,12 @@ public class loops {
 //            System.out.println(i);
 //        }
 //        Example 5:using continue with another example:-
-        for (int i = 1; i <= 10; i++) {
-            if(i==1||i==2||i==3||i==4){
-                continue;
-            }
-            System.out.println(i);
-        }
+//        for (int i = 1; i <= 10; i++) {
+//            if(i==1||i==2||i==3||i==4){
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
 //        2.While loops
 //        Use the while loop when you want to repeat code as long as a condition is true,
 //         but you do not know the exact number of repetitions beforehand
@@ -69,9 +69,9 @@ public class loops {
 //               }
 //        ...............
 //        Example 1:
-//        int i=1;
-//        while(i<=5){
-//            System.out.println(i);i++;
+//        int i=1;    //initialization
+//        while(i<=5){    //condition
+//            System.out.println(i);i++;  //update
 //        }
 //        Example 2:Nested while loop:-
 //        int i=1;
@@ -84,11 +84,11 @@ public class loops {
 //            i++;
 //        }
 //        3.Do While loop:
-//        int i=1;
-//        do{
-//            System.out.println(i);
-//            i++;
-//        }while(i<=10);
+        int i=1;
+        do{
+            System.out.println(i);
+            i++;
+        }while(i==2);
 
 
 

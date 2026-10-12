@@ -12,13 +12,13 @@ public class practice {
 //    boolean	     Returns true or false	    boolean isPrime(int n)
 
 // Example 1 — void
-//    public static void printDigit(int num) {
-//        System.out.println(num);
-//    }
-//
-//    public static void main(String[] args) {
-//        printDigit(10);
-//    }
+    public static void printDigit(int num) {
+        System.out.println(num);
+    }
+
+    public static void main(String[] args) {
+        printDigit(11);
+    }
 
 
 // Example 2 — int
@@ -40,13 +40,13 @@ public class practice {
 
 
 // Example 4 — String
-public static String greet(String name) {
-    return "Hello, " + name + "!";
-}
-    public static void main(String[] args) {
-    String message =greet("Suryam tomar");
-     System.out.println(message);
-    }
+//public static String greet(String name) {
+//    return "Hello, " + name + "!";
+//}
+//    public static void main(String[] args) {
+//    String message =greet("Suryam tomar");
+//     System.out.println(message);
+//    }
 
 
 }
