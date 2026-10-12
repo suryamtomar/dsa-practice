@@ -12,23 +12,23 @@ public class practice {
 //    boolean	     Returns true or false	    boolean isPrime(int n)
 
 // Example 1 — void
-    public static void printDigit(int num) {
-        System.out.println(num);
-    }
-
-    public static void main(String[] args) {
-        printDigit(11);
-    }
+//    public static void printDigit(int num) {
+//        System.out.println(num);
+//    }
+//
+//    public static void main(String[] args) {
+//        printDigit(11);
+//    }
 
 
 // Example 2 — int
-//public static int add(int a,int b) {
-//    return a + b ;
-//}
-//    public static void main(String[] args) {
-//     int result = add(10,1);
-//        System.out.println(result);
-//    }
+public static int add(int a,int b) {
+    return a + b ;
+}
+    public static void main(String[] args) {
+     int result = add(10,11);
+        System.out.println(result);
+    }
 
 // Example 3 — boolean
 //public static boolean isEven(int n) {
