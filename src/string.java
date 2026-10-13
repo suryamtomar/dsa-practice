@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class string {
     public static void main(String[] args) {
@@ -14,10 +14,10 @@ public class string {
 //        System.out.println(firstName.charAt(2));
 
 //        Taking input in string:-
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter a string: ");
-//        String str = sc.nextLine();
-//        System.out.println("value: "+str);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string : ");
+        String str = sc.nextLine();
+        System.out.println("value: "+str);
 
 //        Converting the String in character array:-
 //        String name="LOVETHEWAYYOULIE";
