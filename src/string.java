@@ -15,7 +15,7 @@ public class string {
 
 //        Taking input in string:-
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
+        System.out.println("Enter a  string: ");
         String str = sc.nextLine();
         System.out.println("value: "+str);
 
