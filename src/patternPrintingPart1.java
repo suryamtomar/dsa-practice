@@ -4,7 +4,7 @@ public class patternPrintingPart1 {
         int n=4;
         for (int row=1;row<=n;row++){
             for (int coloumn=1;coloumn<=n;coloumn++){
-                System.out.print("#");
+                System.out.print("* ");
             }
             System.out.println();
         }
