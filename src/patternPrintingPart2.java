@@ -100,7 +100,7 @@ public class patternPrintingPart2 {
 //                   System.out.println();
 //               }
         //Pattern-5: Solid Right-Angle Triangle Pattern But With counting up to 10 :-
-                int n=6;
+                int n=7;
                 int count=1;
                 for(int row=1;row<=n;row++){
                 for(int col=1;col<=row;col++){
