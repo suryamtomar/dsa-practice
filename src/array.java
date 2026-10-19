@@ -193,7 +193,7 @@ public class array {
 //
 
 //           #practice Problem 4 in 2D Array:-
-        int [][] arr={{1,2,3},{-3,4,33}};
+        int [][] arr={{1,2,3},{-3,41,33}};
         int minValue=arr[0][0];
         for (int[] ints : arr) {
             for (int anInt : ints) {
