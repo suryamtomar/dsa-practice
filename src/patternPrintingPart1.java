@@ -1,7 +1,7 @@
 public class patternPrintingPart1 {
     public static void main(String[] args) {
         //PATTERN 1.Solid Square Pattern
-        int n=4;
+        int n=5;
         for (int row=1;row<=n;row++){
             for (int coloumn=1;coloumn<=n;coloumn++){
                 System.out.print("* ");
