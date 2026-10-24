@@ -18,14 +18,14 @@ public class patternPrintingPart1 {
 //        }
 
 //        another way to solve the problem
-        int r=3;
-        int c=4;
-        for(int i=1;i<=r;i++){
-            for(int j=1;j<=c;j++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        int r=3;
+//        int c=4;
+//        for(int i=1;i<=r;i++){
+//            for(int j=1;j<=c;j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
         //PATTERN 3.Solid Right-Angle Triangle Pattern
 //        int n=5;
 //        for(int row=1;row<=n;row++){
@@ -34,6 +34,20 @@ public class patternPrintingPart1 {
 //            }
 //            System.out.println();
 //        }
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
         //PATTERN 4.Solid Rhombus Pattern
 //        int n = 5;
 //        for (int row = 1; row <= n; row++) {
