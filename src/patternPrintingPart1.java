@@ -9,23 +9,23 @@ public class patternPrintingPart1 {
 //            System.out.println();
 //        }
         //PATTERN 2.Solid Rectangular Pattern
-        int n=3;
-        for (int row=1;row<=n;row++) {
-            for (int coloumn = 1; coloumn <= 5; coloumn++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-
-//        another way to solve the problem
-//        int r=3;
-//        int c=4;
-//        for(int i=1;i<=r;i++){
-//            for(int j=1;j<=c;j++){
+//        int n=3;
+//        for (int row=1;row<=n;row++) {
+//            for (int coloumn = 1; coloumn <= 5; coloumn++) {
 //                System.out.print("* ");
 //            }
 //            System.out.println();
 //        }
+
+//        another way to solve the problem
+        int r=3;
+        int c=4;
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=c;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         //PATTERN 3.Solid Right-Angle Triangle Pattern
 //        int n=5;
 //        for(int row=1;row<=n;row++){
