@@ -62,18 +62,6 @@ public class patternPrintingPart1 {
 //            }
 //            System.out.println();
 //        }
-
-
-
-
-
-
-
-
-
-
-
-
         //PATTERN 6.Solid Pyramid Pattern
 //             int n=5;
 //             for (int row = 1; row <= n; row++) {
@@ -81,10 +69,8 @@ public class patternPrintingPart1 {
 //                 for (int col = 1; col <= n-row; col++) {
 //                     System.out.print(" ");
 //                 }
-//
 //                 for (int col = 1; col <=2*row-1 ; col=col+2) {
 //                     System.out.print("* ");
-//
 //                 }
 //                 System.out.println("");
 //                 }
@@ -100,5 +86,30 @@ public class patternPrintingPart1 {
 //                 }
 //                 System.out.println();
 //                 }
+
+        int n=5;
+        for( int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++){
+                System.out.print(" *");
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        }
     }
