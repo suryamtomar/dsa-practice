@@ -87,7 +87,7 @@ public class patternPrintingPart1 {
 //                 System.out.println();
 //                 }
 
-        int n=513;
+        int n=51;
         for( int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
